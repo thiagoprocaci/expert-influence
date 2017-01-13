@@ -6,10 +6,11 @@ You can find here the analysis of the paper "Predicting Good Discussions Based o
 In other words, you will find here everything you need to reproduce this research.
 
 
-## Setup the environment
-- Install R version 3.2.2 (available at https://www.r-project.org/)
-- Install mySQL database version 5.6.31 (available at http://dev.mysql.com/downloads/)
-- We did everything using Ubuntu 15.10
+## Environment
+- R version 3.2.2 (available at https://www.r-project.org/)
+- MySQL database version 5.6.31 (available at http://dev.mysql.com/downloads/)
+- Ubuntu version 15.10
+- HeidiSQL version 9.3.0.4984
 
 ## Loading data into MySQL
 - Open folder database
