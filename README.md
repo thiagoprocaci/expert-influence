@@ -13,7 +13,7 @@ In other words, you will find here everything you need to reproduce this researc
 - HeidiSQL version 9.3.0.4984
 
 ## Loading data into MySQL
-- Open folder database
+- Open folder database/biology
 - Unzip bio-database.sql.zip
 - Run bio-database.sql
 
