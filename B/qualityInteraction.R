@@ -1,4 +1,4 @@
-#A. Reputation and Participation Analysis
+#B. Quality of Interactions
 options(warn=-1)
 
 source("../functions/Functions.R")

@@ -28,6 +28,10 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder B
 - Execute: Rscript qualityInteraction.R
 
+###C. Users Interactions and Evolution Analysis
+- Open folder C
+- Execute: Rscript evolution.R
+
 
 
 
