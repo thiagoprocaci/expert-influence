@@ -20,7 +20,7 @@ In other words, you will find here everything you need to reproduce this researc
 ## Analysis
 For the analysis, each one has a folder with the SQL that generated the CSV file. We used the CSV as the input for our R script.
 
-#A. Reputation and Participation Analysis
+###A. Reputation and Participation Analysis
 - Open folder A
 - Execute: Rscript reputation.R
 
