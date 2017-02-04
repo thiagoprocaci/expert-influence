@@ -24,6 +24,10 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder A
 - Execute: Rscript reputation.R
 
+###B. Quality of Interactions
+- Open folder B
+- Execute: Rscript qualityInteraction.R
+
 
 
 
