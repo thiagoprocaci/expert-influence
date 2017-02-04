@@ -34,7 +34,7 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 
 ###D. Best Answers Analysis
 - Open folder D
--Execute: Rscript best.R
+- Execute: Rscript best.R
 
 
 
