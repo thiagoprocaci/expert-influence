@@ -36,5 +36,10 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder D
 - Execute: Rscript best.R
 
+###E. Discussion Length Analysis
+- Open folder E/part-1
+- Execute: Rscript discussion.R
+- Open folder E/part-2
+- Execute: Rscript discussion.R
 
 
