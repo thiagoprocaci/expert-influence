@@ -32,6 +32,9 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder C
 - Execute: Rscript evolution.R
 
+###D. Best Answers Analysis
+- Open folder D
+-Execute: Rscript best.R
 
 
 
