@@ -12,10 +12,14 @@ In other words, you will find here everything you need to reproduce this researc
 - Ubuntu version 15.10
 - HeidiSQL version 9.3.0.4984
 
-## Loading data into MySQL
+### Inserting data into MySQL
 - Open folder database/biology
 - Unzip bio-database.sql.zip
 - Run bio-database.sql
+
+## How did we extract the data?
+We used the stackexchange API (http://api.stackexchange.com/docs/) to extract data from biology Q&A (http://biology.stackexchange.com/). Then, we loaded the data into MySQL.
+
 
 ## Analysis
 For the analysis, each one has a folder with the SQL that generated the CSV file. We used the CSV as the input for our R script.
@@ -46,3 +50,8 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder F
 - Execute: Rscript graph.R
 
+###G. PREDICTIVE MODEL TO FINDING A WORTHY DISCUSSION
+- Open folder G/nnet
+- Execute: Rscript prediction-gbm.R
+- Open folder G/gbm
+- Execute: Rscript prediction-nnet.R
