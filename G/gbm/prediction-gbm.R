@@ -1,4 +1,4 @@
-graphData <- read.csv(file = "graph-query.csv", header = TRUE, sep = ";", dec = ",", row.names = NULL)
+graphData <- read.csv(file = "../graph-query.csv", header = TRUE, sep = ";", dec = ",", row.names = NULL)
 
 graphData[, "indegree"] <- ifelse(graphData$indegree == "\\N", 0, graphData$indegree)
 graphData[, "outdegree"] <- ifelse(graphData$outdegree == "\\N", 0, graphData$outdegree)
