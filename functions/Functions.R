@@ -104,3 +104,50 @@ isGaussionDistribution <- function(distribution) {
     return(TRUE)
   }
 }
+
+correlation <- function(data1, data2, title) {
+  #Kolmogorov-Smirnov test
+  ks1 <- ks.test(data1, "pnorm", mean=mean(data1), sd=sd(data1))
+  ks2 <-  ks.test(data2, "pnorm", mean=mean(data2), sd=sd(data2))
+  if(isGaussionDistribution(data1) && isGaussionDistribution(data2)) {
+    #gaussion distribution
+    correlationMethod(data1, data2, title, "pearson")
+  } else {
+    correlationMethod(data1, data2, title, "spearman")
+  }
+}
+
+correlationMethod <- function(data1, data2, title, method) {
+  print("--------------------------")
+  print(paste("Method: ", method, " - " , title))
+  correl <- round(as.numeric(cor(data1, data2, method = method)), digits = 4)
+  pvalue <- as.numeric(cor.test(data1, data2, method = method)$p.value)
+  valid <- FALSE
+  pvaluePrint <- as.character(pvalue)
+  
+  if(pvalue < 0.05) {
+    valid = TRUE
+  }
+  if(pvalue < 0.001) {
+    pvaluePrint <- as.character("< 0.001")
+  }
+    
+  #interpretation described at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3576830/
+  interpretation <- "insignificant"
+  if (correl > 0.3 ){
+    interpretation <- "weak"
+  }
+  if(correl > 0.5) {
+    interpretation <- "moderate"
+  }
+  if(correl > 0.7) {
+    interpretation <- "strong"
+  }
+  
+  print(correl)
+  print(pvaluePrint)
+  print(paste("correl valid: ", as.character(valid)))
+  print(interpretation)
+  print("--------------------------")
+}
+

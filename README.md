@@ -42,4 +42,7 @@ For the analysis, each one has a folder with the SQL that generated the CSV file
 - Open folder E/part-2
 - Execute: Rscript discussion.R
 
+###F. Graph and Correlation Analysis
+- Open folder F
+- Execute: Rscript graph.R
 
