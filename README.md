@@ -1,9 +1,10 @@
-# Project expert-influence
+# Modelling Experts Behaviour in Q&A Communities to Predict Worthy Discussion
 
 ## Summary
 This project is part of a scientific research. We are interested in knowing the influence of experts in discussions.
-You can find here the analysis of the paper "Modelling Experts Behaviour in Q&A Communities to Predict Worthy Discussions" published at xxxx".
+You can find here the analysis of the paper "Modelling Experts Behaviour in Q&A Communities to Predict Worthy Discussions" published at the 17th IEEE International Conference on Advanced Learning Technologies - ICALT 2017.
 In other words, you will find here everything you need to reproduce this research.
+First, read the paper and then follow the instructions below.
 
 
 ## Environment
