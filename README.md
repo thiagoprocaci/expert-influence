@@ -25,33 +25,33 @@ We used the stackexchange API (http://api.stackexchange.com/docs/) to extract da
 ## Analysis
 For the analysis, each one has a folder with the SQL that generated the CSV file. We used the CSV as the input for our R script.
 
-###A. Reputation and Participation Analysis
+### A. Reputation and Participation Analysis
 - Open folder A
 - Execute: Rscript reputation.R
 
-###B. Quality of Interactions
+### B. Quality of Interactions
 - Open folder B
 - Execute: Rscript qualityInteraction.R
 
-###C. Users Interactions and Evolution Analysis
+### C. Users Interactions and Evolution Analysis
 - Open folder C
 - Execute: Rscript evolution.R
 
-###D. Best Answers Analysis
+### D. Best Answers Analysis
 - Open folder D
 - Execute: Rscript best.R
 
-###E. Discussion Length Analysis
+### E. Discussion Length Analysis
 - Open folder E/part-1
 - Execute: Rscript discussion.R
 - Open folder E/part-2
 - Execute: Rscript discussion.R
 
-###F. Graph and Correlation Analysis
+### F. Graph and Correlation Analysis
 - Open folder F
 - Execute: Rscript graph.R
 
-###G. PREDICTIVE MODEL TO FINDING A WORTHY DISCUSSION
+### G. PREDICTIVE MODEL TO FINDING A WORTHY DISCUSSION
 - Open folder G/nnet
 - Execute: Rscript prediction-gbm.R
 - Open folder G/gbm
